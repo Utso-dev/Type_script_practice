@@ -1,5 +1,4 @@
 
-
 const getLength = (len : string | number[]) => {
     if (typeof len === 'string') {
         return len.length;
