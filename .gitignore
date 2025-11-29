@@ -1,0 +1,16 @@
+# Ignore all log files
+*.log
+
+# Ignore the build directory
+build/
+
+# Ignore node_modules directory (common for JavaScript projects)
+node_modules/
+
+# Ignore specific sensitive files
+config.ini
+.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
