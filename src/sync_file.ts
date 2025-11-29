@@ -5,7 +5,7 @@ const path = require('path');
 
 console.log("start file read.........");
 try {
-    const data = fs.readFileSync( './asset/test.txt', 'utf-8');
+    const data = fs.readFileSync('./asset/test.txt', 'utf-8');
     console.log("file read success");
     console.log(data);
     
